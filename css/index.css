@@ -1,0 +1,32 @@
+  html{
+        background: url(/img/background.png);
+        background-color: var(--background-primary);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  header{
+    padding-top: 76px;
+  }
+header svg{
+    color: var(--content-brand);
+    width: 38px;
+}
+main{
+    padding-top: 89px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 108px;
+    row-gap: 0;
+    grid-template-areas: 
+    "div-title div-info" 
+    "div-faq div-form";
+}
+  .card-header svg {
+   color: var(--content-brand);
+   width: 20px;
+  }
+
+  .container{
+    padding-left: 120px;
+  }

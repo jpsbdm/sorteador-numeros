@@ -1,0 +1,30 @@
+#title{
+    color: var(--content-primary);
+    font: var(--display-sm);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#subtitle{
+    background: var(--gradient-content);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font: var(--overline);
+}
+
+h1{
+    color: var(--content-primary);
+    font: var(--display-lg);
+}
+
+.card-header h3{
+color: var(--content-brand);
+font: var(--paragraph-md);
+}
+
+.card p{
+    color: var(--content-secondary);
+    font: var(--paragraph-sm);
+}
+

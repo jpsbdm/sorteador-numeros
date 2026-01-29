@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers - Sorteador online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/text.css">
+    <link rel="stylesheet" href="/css/utillity.css">
+</head>
+
+<body class="container">
+    <header>
+        <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_3249_291)">
+                <mask id="mask0_3249_291" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="2" width="34"
+                    height="34">
+                    <path d="M36 2H2V36H36V2Z" fill="white" />
+                </mask>
+                <g mask="url(#mask0_3249_291)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M19 7.71963C17.7715 7.71963 16.7757 8.71548 16.7757 9.94393H11.0561C11.0561 5.55662 14.6127 2 19 2C23.3874 2 26.9439 5.55662 26.9439 9.94393C26.9439 14.3312 23.3874 17.8878 19 17.8878V12.1682C20.2284 12.1682 21.2243 11.1724 21.2243 9.94393C21.2243 8.71548 20.2284 7.71963 19 7.71963ZM30.2803 19C30.2803 17.7715 29.2845 16.7757 28.0561 16.7757V11.0561C32.4434 11.0561 36 14.6127 36 19C36 23.3874 32.4434 26.9439 28.0561 26.9439C23.6687 26.9439 20.1121 23.3874 20.1121 19H25.8318C25.8318 20.2284 26.8277 21.2243 28.0561 21.2243C29.2845 21.2243 30.2803 20.2284 30.2803 19ZM9.94393 21.2243C8.71548 21.2243 7.71963 20.2284 7.71963 19C7.71963 17.7715 8.71548 16.7757 9.94393 16.7757C11.1724 16.7757 12.1682 17.7715 12.1682 19H17.8878C17.8878 14.6127 14.3312 11.0561 9.94393 11.0561C5.55662 11.0561 2 14.6127 2 19C2 23.3874 5.55662 26.9439 9.94393 26.9439V21.2243ZM19 30.2803C20.2284 30.2803 21.2243 29.2845 21.2243 28.0561H26.9439C26.9439 32.4434 23.3874 36 19 36C14.6127 36 11.0561 32.4434 11.0561 28.0561C11.0561 23.6687 14.6127 20.1121 19 20.1121V25.8318C17.7715 25.8318 16.7757 26.8277 16.7757 28.0561C16.7757 29.2845 17.7715 30.2803 19 30.2803Z"
+                        fill="currentColor" />
+                </g>
+            </g>
+            <defs>
+                <clipPath id="clip0_3249_291">
+                    <rect width="34" height="34" fill="white" transform="translate(2 2)" />
+                </clipPath>
+            </defs>
+        </svg>
+        <span id="title">Numbers</span>
+    </header>
+    <main>
+        <div id="div-title">
+            <span id="subtitle">ONLINE - GRATUITO</span>
+            <H1>SORTEADOR DE NUMEROS</H1>
+        </div>
+        <div id="div-faq" class="cards">
+            <div class="card">
+                <div  class="card-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M12.5212 3H11.5192C10.9563 3.00836 10.3958 3.03083 9.84518 3.06737C5.65374 3.34548 2.31504 6.72539 2.04032 10.9686C1.98656 11.7989 1.98656 12.6588 2.04032 13.4892C2.14038 15.0346 2.82509 16.4655 3.63119 17.6738C4.09923 18.5196 3.79035 19.5754 3.30283 20.4975C2.95132 21.1624 2.77557 21.4949 2.91669 21.735C3.0578 21.9752 3.37302 21.9829 4.00346 21.9982C5.25021 22.0285 6.09091 21.6757 6.75825 21.1845C7.13674 20.9059 7.32598 20.7666 7.45641 20.7506C7.58684 20.7346 7.84352 20.8401 8.3568 21.0511C8.81812 21.2408 9.35376 21.3578 9.84518 21.3904C11.2722 21.4851 12.7652 21.4853 14.1951 21.3904C18.2169 21.1236 21.5019 18.0009 22 14" />
+                        <path
+                            d="M15.59 8.64819C14.9612 9.01675 13.3126 9.7693 14.3167 10.711C14.8072 11.171 15.3536 11.5 16.0404 11.5H19.9596C20.6464 11.5 21.1928 11.171 21.6833 10.711C22.6874 9.7693 21.0388 9.01675 20.41 8.64819C18.9355 7.78394 17.0645 7.78394 15.59 8.64819Z" />
+                        <path
+                            d="M20 4C20 5.10457 19.1046 6 18 6C16.8954 6 16 5.10457 16 4C16 2.89543 16.8954 2 18 2C19.1046 2 20 2.89543 20 4Z" />
+                        <path d="M11.9953 12.5H12.0043M7.99982 12.5H8.00879" />
+                    </svg>
+                    <h3>Como funciona o sorteador de números?</h3>
+                </div>
+                <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo
+                    especificado pelo usuário. </p>
+            </div>
+            <div  class="card">
+                <div class="card-header">
+                    <img src="" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M12.5212 3H11.5192C10.9563 3.00836 10.3958 3.03083 9.84518 3.06737C5.65374 3.34548 2.31504 6.72539 2.04032 10.9686C1.98656 11.7989 1.98656 12.6588 2.04032 13.4892C2.14038 15.0346 2.82509 16.4655 3.63119 17.6738C4.09923 18.5196 3.79035 19.5754 3.30283 20.4975C2.95132 21.1624 2.77557 21.4949 2.91669 21.735C3.0578 21.9752 3.37302 21.9829 4.00346 21.9982C5.25021 22.0285 6.09091 21.6757 6.75825 21.1845C7.13674 20.9059 7.32598 20.7666 7.45641 20.7506C7.58684 20.7346 7.84352 20.8401 8.3568 21.0511C8.81812 21.2408 9.35376 21.3578 9.84518 21.3904C11.2722 21.4851 12.7652 21.4853 14.1951 21.3904C18.2169 21.1236 21.5019 18.0009 22 14" />
+                        <path
+                            d="M15.59 8.64819C14.9612 9.01675 13.3126 9.7693 14.3167 10.711C14.8072 11.171 15.3536 11.5 16.0404 11.5H19.9596C20.6464 11.5 21.1928 11.171 21.6833 10.711C22.6874 9.7693 21.0388 9.01675 20.41 8.64819C18.9355 7.78394 17.0645 7.78394 15.59 8.64819Z" />
+                        <path
+                            d="M20 4C20 5.10457 19.1046 6 18 6C16.8954 6 16 5.10457 16 4C16 2.89543 16.8954 2 18 2C19.1046 2 20 2.89543 20 4Z" />
+                        <path d="M11.9953 12.5H12.0043M7.99982 12.5H8.00879" />
+                    </svg>
+                    <h3>Posso escolher o intervalo dos números?</h3>
+                </div>
+                <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados. </p>
+            </div>
+        </div>
+        <div id="div-info">
+            <h2>Quero sortear:</h2>
+            <p>defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido
+                e fácil!</p>
+        </div>
+        <div id="div-form">
+            <form action="submit">
+                <label for="min">Numeros</label>
+                <input type="number" id="min" name="min" placeholder="2">
+                <label for="from">Numeros</label>
+                <input type="number" id="from" name="from" placeholder="1">
+                <label for="to">Numeros</label>
+                <input type="number" id="to" name="to" placeholder="100">
+                <label for="repeat">Nao repetir numero</label>
+                <input type="checkbox" id="repeat" name="repeat">
+                <button type="submit">Sortear</button>
+            </form>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
