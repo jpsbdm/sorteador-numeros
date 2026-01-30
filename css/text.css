@@ -1,11 +1,11 @@
-#title{
+#title {
     color: var(--content-primary);
     font: var(--display-sm);
     font-size: 24px;
     text-transform: uppercase;
 }
 
-#subtitle{
+#subtitle {
     background: var(--gradient-content);
     background-clip: text;
     -webkit-background-clip: text;
@@ -13,18 +13,39 @@
     font: var(--overline);
 }
 
-h1{
+h1 {
     color: var(--content-primary);
     font: var(--display-lg);
 }
 
-.card-header h3{
-color: var(--content-brand);
-font: var(--paragraph-md);
+h2 {
+    color: var(--content-primary);
+    font: var(--label-md);
+    text-transform: uppercase;
 }
 
-.card p{
+.card-header h3 {
+    color: var(--content-brand);
+    font: var(--paragraph-md);
+}
+
+.card p {
     color: var(--content-secondary);
     font: var(--paragraph-sm);
 }
 
+#div-info p {
+    color: var(--content-secondary);
+    font: var(--paragraph-md);
+}
+
+#div-form label {
+    color: var(--content-secondary);
+    font: var(--label-sm);
+}
+
+#div-form input[type="text"] {
+    color: var(--content-primary);
+    font: var(--display-sm);
+    text-align: center;
+}

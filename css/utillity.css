@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 
-
     /* CONTENT */
     --content-primary: #ffffff;
     --content-secondary: #c7c9cc;
@@ -11,15 +10,14 @@
     --content-brand: #c58de7;
     --color-inverse: #030203;
 
-/* BACKGROUND */
+    /* BACKGROUND */
     --background-primary: #020202;
     --background-secondary: #111012;
     --background-tertiary: #24222e;
     --background-brand: #c58de7;
     --background-gray: #3d3d3d;
 
-/* ACCENT */
-
+    /* ACCENT */
     --accent-pink: #d586e0;
     --accent-blue: #91a1fa;
     --accent-green: #77c0af;
@@ -31,15 +29,11 @@
     --gradient-background: linear-gradient(90deg, #D586E0 0%, #91A1FA 98.93%);
     --gradient-content: linear-gradient(90deg, #C7C9CC 0%, #3D3D3D 100%);
 
-    /* FONT SORA */
-    --display-lg: 800 72px/130% 'Sora', sans-serif;
+    /* FONTS */
+    --display-lg: 800 70px/130% 'Sora', sans-serif;
     --display-md: 800 40px/130% 'Sora', sans-serif;
     --display-sm: 700 32px/130% 'Sora', sans-serif;
-    
-    /* FONT ROBOTO MONO */
     --overline: 700 16px/150% 'Roboto Mono', monospace;
-
-    /* FONT ROBOTO FLEX */
     --paragraph-lg: 500 16px/150% 'Roboto Flex', sans-serif;
     --paragraph-md: 500 14px/150% 'Roboto Flex', sans-serif;
     --paragraph-sm: 500 12px/150% 'Roboto Flex', sans-serif;
