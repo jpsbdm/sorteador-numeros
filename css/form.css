@@ -5,6 +5,7 @@
 }
 
 #number-inputs {
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     gap: 16px;

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Adriano e gay-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,37 +83,42 @@
             </div>
         </div>
         <div id="div-form">
-            <div id="div-info">
-                <h2>Quero sortear:</h2>
-                <p>defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É
-                    rápido
-                    e fácil!</p>
+            <div id="div-result">
 
             </div>
-            <form action="submit">
-                <div id="number-inputs">
-                    <div>
-                        <label for="min">NUMEROS</label>
-                        <input type="text" id="min" name="min" placeholder="2">
-                    </div>
-                    <div>
-                        <label for="from">DE</label>
-                        <input type="text" id="from" name="from" placeholder="1">
-                    </div>
-                    <div>
-                        <label for="to">ATE</label>
-                        <input type="text" id="to" name="to" placeholder="100">
-                    </div>
+            <div id="div-draw" class="hidden">
+                <div id="div-info">
+                    <h2>Quero sortear:</h2>
+                    <p>defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É
+                        rápido
+                        e fácil!</p>
+
                 </div>
-                <div id="form-checkbox">
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="repeat" name="repeat">
-                        <span class="slider"></span>
-                    </label>
-                    <label for="repeat">Nao repetir numero</label>
-                </div>
-                <button type="submit">Sortear</button>
-            </form>
+                <form action="submit">
+                    <div id="number-inputs">
+                        <div>
+                            <label for="min">NUMEROS</label>
+                            <input type="text" id="min" name="min" placeholder="2">
+                        </div>
+                        <div>
+                            <label for="from">DE</label>
+                            <input type="text" id="from" name="from" placeholder="1">
+                        </div>
+                        <div>
+                            <label for="to">ATE</label>
+                            <input type="text" id="to" name="to" placeholder="100">
+                        </div>
+                    </div>
+                    <div id="form-checkbox">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="repeat" name="repeat">
+                            <span class="slider"></span>
+                        </label>
+                        <label for="repeat">Nao repetir numero</label>
+                    </div>
+                    <button type="submit">Sortear</button>
+                </form>
+            </div>
         </div>
 
 

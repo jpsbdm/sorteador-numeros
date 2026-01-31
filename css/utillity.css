@@ -40,3 +40,7 @@
     --label-md: 700 20px/150% 'Roboto Flex', sans-serif;
     --label-sm: 700 16px/150% 'Roboto Flex', sans-serif;
 }
+
+.hidden {
+    display: none;
+}
