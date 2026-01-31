@@ -67,6 +67,7 @@ main {
 #div-form {
     grid-area: div-form;
     max-width: 482px;
+    margin: auto 0;
 }
 
 .container {
@@ -75,7 +76,7 @@ main {
     max-width: 1440px;
 }
 
-form button {
+    button {
     width: 100%;
     height: 56px;
     border: none;
@@ -86,6 +87,47 @@ form button {
     text-transform: uppercase;
     cursor: pointer;
 }
+#div-result p {
+    color: var(--content-secondary);
+
+}
+#div-result {
+
+        display: flex;
+        flex-direction: column;
+       gap: 40px;
+       align-items: center;
+}
+#div-result button {
+margin-bottom:70px ;
+}
+#div-info-result{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.results  {
+    display: flex;
+    gap: 4px;
+}
+.result {
+    color: var(--content-brand);
+    font: var(--display-md);
+    padding: 13px ;
+    
+
+}
+/*hovers */
+button:hover {
+    border-radius: 9px;
+    border: 2px solid transparent;
+    background: 
+        linear-gradient(#24222e, #24222e) padding-box,
+        linear-gradient(90deg, #77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%) border-box;
+    padding: 13px;
+}
+
 
 /* MOBILE */
 @media (max-width: 768px) {

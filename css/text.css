@@ -49,3 +49,7 @@ h2 {
     font: var(--display-sm);
     text-align: center;
 }
+ #div-info-result p{
+    color: var(--content-primary);
+    font: var(--overline);
+ }
