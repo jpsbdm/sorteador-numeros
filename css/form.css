@@ -11,7 +11,7 @@
     gap: 16px;
 }
 
-#number-inputs > div {
+#number-inputs>div {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -31,6 +31,9 @@
     border-radius: 8px;
     background-color: var(--background-secondary);
 }
+
+
+
 
 #form-checkbox {
     display: flex;
@@ -77,10 +80,10 @@
     border-radius: 50%;
 }
 
-input:checked + .slider {
+input:checked+.slider {
     background: var(--gradient-background);
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
     transform: translateX(10px);
 }
